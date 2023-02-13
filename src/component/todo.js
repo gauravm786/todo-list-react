@@ -126,7 +126,7 @@ const editItem=(id)=>{
         </figure>
 
         <div className="addItems">
-            <input type="text" placeholder='✍️ Add Items ...'
+            <input type="text" placeholder='✍️ Write a Todo...'
             value={inputData} 
             onChange={(e)=>setInputData(e.target.value)}/>
             {/* <i className="fa fa-plus" onClick={addItem}></i> */}
@@ -175,3 +175,66 @@ const editItem=(id)=>{
 }
 
 export default Todo
+
+
+
+
+// @media screen and (min-width:0px) and (max-width:600px) {
+//   body{position: relative;}
+//   .eachItem {
+//     position: relative;
+//     background: #fff;
+//     padding: 1.2rem 1rem;
+//     border-radius: 0.5rem;
+//     margin-bottom: 0.7rem;
+//     /* margin-left: 1rem; */
+//     /* min-width: 40%; */
+//     width: 100%;
+//     margin:1rem auto;
+//     /* word-break: break-word; */
+//     background: rgb(85, 41, 220);
+//     /* display: flex; */
+//     /* justify-content: space-between; */
+//     /* align-items: center; */
+//   }
+
+//   .addItems{
+//     width: 90vw;
+//     margin: auto;
+//     /* border: 1px solid red; */
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//   }
+
+//   .fa-plus::before {
+//     content: "\f067";
+//     font-size: 1.5rem;
+//     position: absolute;
+//     margin-top: 0.rem;
+//     margin-left: -2.5rem;
+//   }
+//   .addItems .fa-edit::before{
+//     /* content: "\f067"; */
+//     font-size: 2rem;
+//     position: absolute;
+//     margin-left: -3rem;
+//     /* border: 1px solid red; */
+//   }
+
+//   input {
+//     /* display: block; */
+//     width: 100%;
+//     height: 3.4rem;
+//     /* padding: 2rem 1.2rem; */
+//     font-size: 1.8rem;
+//     line-height: 1.42857143;
+//     /* margin-top: 2rem; */
+//     /* margin: auto; */
+//     color: rgb(58, 57, 57);
+//     background-color: #fff;
+//     background-image: none;
+//     border: 0.1rem solid #ccc;
+//     border-radius: 0.4rem;
+//     }
+// }
